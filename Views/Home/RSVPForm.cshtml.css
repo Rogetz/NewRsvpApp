@@ -1,0 +1,9 @@
+body{
+    font-size: 12px;
+}
+.wrapper{
+    width: 20em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    margin-right: -50%;
+}

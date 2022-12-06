@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="WelcomePage.cshtml.css">
+</head>
+<body>
+    <!--The style for adding a background image to a parent element-->
+    <div class="Welcome">
+        <h1 class="text-center alert bg-primary rounded-pill">Welcome to ROGETZ TECH PARTY</h1>
+        <div class="WelcomeContent">
+            <p class="text-dark text-center">To redirect to the Context page please click here</p>
+            <p class="text-center"><a class="text-center btn rounded-pill btn-secondary " asp-Controller="ContextObjects" asp-action="HomePage">Click here</a></p>
+            <p class="text-center mt-3 rounded-pill "><span><strong><br>This is an exclusive party for all the tech lovers
+            <br></strong><span class="text-center alert text-dark">If interested please click on the RSVP link to rsvp</span></span></p>
+        </div>
+        <p class="text-primary text-center"><span class=""><strong>@ViewBag.Greet, Hope its all good with you.</strong></span></p>
+        <p class="text-center " ><button class="btn btn-primary p-2 mt-5 text-dark rounded-pill "></button><a asp-action="RSVPForm" class="btn btn-primary">RSVP</a></p>
+    </div>
+</body>
+</html>

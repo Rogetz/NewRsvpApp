@@ -1,0 +1,46 @@
+@model RealRSVPApplication.Models.AttendeeDetails;
+
+<body class="bg-black">
+<h1>Please fill in the form details below to RSVP</h1>
+    <form class="form-group " asp-action="RSVPForm" method="POST">
+        <span asp-validation-for="Name" class="text-danger"></span>
+        <div class="form-control wrapper bg-success">
+            <label asp-for="Name" class="text-white"></label>
+            <input asp-for="Name" class="bg-dark">
+        </div>
+        <span asp-validation-for="Email" class="text-danger"></span>
+        <div class="form-control wrapper bg-success">
+            <label asp-for="Email" class="text-white"></label>
+            <input asp-for="Email" class="bg-dark">
+        </div>
+        <span asp-validation-for="Phone" class="text-danger"></span>
+        <div class="form-control wrapper bg-success">
+            <label asp-for="Phone" class="text-white"></label>
+            <input asp-for="Phone" class="bg-dark">
+        </div>        
+        <span asp-validation-for="WillAttend" class="text-danger"></span>
+        <div class="wrapper">
+            <select asp-for="WillAttend" class="form-select text-white bg-success bg-dark">
+                <option value="">Choose an Option</option>
+                <option value="true">I will attend</option>
+                <option value="false">I will not attend</option>
+            </select>
+        </div>
+
+        <span asp-validation-for="Password" class="text-danger "></span>
+        <div class="form-control wrapper bg-success">
+            <label asp-for="Password" class="text-white"></label>
+            <input asp-for="Password" class="bg-dark"/>
+
+        </div>
+        <span asp-validation-for="BooleanValue" class="text-danger"></span>
+        <div class="form-check wrapper bg-success">
+            <label asp-for="BooleanValue" class="form-check-label text-white"></label>
+            <!--I've specified the UIHint in the c#class-->
+            <input asp-for="BooleanValue" class="form-check-input bg-dark"/>
+        </div>
+        <div class="wrapper form-control bg-secondary">
+            <button type="submit" class=" btn btn-primary rounded-pill" >Submit Your Details</button>
+        </div>
+    </form>
+</body>

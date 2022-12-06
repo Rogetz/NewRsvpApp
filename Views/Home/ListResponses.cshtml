@@ -1,0 +1,24 @@
+@model IEnumerable<RealRSVPApplication.Models.AttendeeDetails>;
+
+<body class="bg-success">
+    <div>
+    <table class="table table-bordered table-dark table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(RealRSVPApplication.Models.AttendeeDetails detail in Model){
+                <tr>                
+                    <td>@detail.Name</td>
+                    <td>@detail.Email</td>
+                    <td>@detail.Phone</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+</body>

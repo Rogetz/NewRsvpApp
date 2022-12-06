@@ -1,0 +1,10 @@
+@model RealRSVPApplication.Models.AttendeeDetails;
+
+<body class="bg-black">
+    <div class="alert alert-primary">
+    Thankyou @Model.Name , @ViewBag.Attending 
+    <br> @ViewBag.Greeting
+    </div>
+    <p class="text-dark"><strong>Click <button class="btn btn-primary"><a asp-action="ListResponses" class="text-dark">Here</a></button> to see the people who are attending</strong></p>
+</body>
+

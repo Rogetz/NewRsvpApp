@@ -1,0 +1,28 @@
+@model IDictionary<string,string?>;
+    <!--model can simply be a data type-->
+
+@{
+    ViewData["Title"] = "Redirected Page";
+}
+
+<div>
+    <table class="table table-stripped">
+        <thead>
+            <tr>
+                <th>Request Object Name</th>
+                <th>Request Object Value</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var RequestObjectPair in Model)
+            {   
+                <tr>
+                    <th>@RequestObjectPair.Key</th>
+                    <td>@RequestObjectPair.Value</td>
+                </tr> 
+            }
+        </tbody>
+    </table>
+</div>
+    
