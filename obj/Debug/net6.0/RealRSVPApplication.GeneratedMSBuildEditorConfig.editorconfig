@@ -3,66 +3,66 @@ build_property.TargetFramework = net6.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
-build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = true
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RealRSVPApplication
 build_property.RootNamespace = RealRSVPApplication
-build_property.ProjectDir = d:\MVCPROJECTS\RealRSVPApplication\
+build_property.ProjectDir = d:\DeployWebApps\NewRsvpApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\MVCPROJECTS\RealRSVPApplication
+build_property.MSBuildProjectDirectory = d:\DeployWebApps\NewRsvpApp
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/MVCPROJECTS/RealRSVPApplication/Views/ContextObjects/HomePage.cshtml]
+[d:/DeployWebApps/NewRsvpApp/Views/ContextObjects/HomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGV4dE9iamVjdHNcSG9tZVBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MVCPROJECTS/RealRSVPApplication/Views/ContextObjects/RedirectedAction.cshtml]
+[d:/DeployWebApps/NewRsvpApp/Views/ContextObjects/RedirectedAction.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGV4dE9iamVjdHNcUmVkaXJlY3RlZEFjdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MVCPROJECTS/RealRSVPApplication/Views/Home/Index.cshtml]
+[d:/DeployWebApps/NewRsvpApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MVCPROJECTS/RealRSVPApplication/Views/Home/ListResponses.cshtml]
+[d:/DeployWebApps/NewRsvpApp/Views/Home/ListResponses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0UmVzcG9uc2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MVCPROJECTS/RealRSVPApplication/Views/Home/Privacy.cshtml]
+[d:/DeployWebApps/NewRsvpApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MVCPROJECTS/RealRSVPApplication/Views/Home/ThankyouPage.cshtml]
+[d:/DeployWebApps/NewRsvpApp/Views/Home/ThankyouPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaGFua3lvdVBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MVCPROJECTS/RealRSVPApplication/Views/Shared/Error.cshtml]
+[d:/DeployWebApps/NewRsvpApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MVCPROJECTS/RealRSVPApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/DeployWebApps/NewRsvpApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MVCPROJECTS/RealRSVPApplication/Views/_ViewImports.cshtml]
+[d:/DeployWebApps/NewRsvpApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MVCPROJECTS/RealRSVPApplication/Views/_ViewStart.cshtml]
+[d:/DeployWebApps/NewRsvpApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/MVCPROJECTS/RealRSVPApplication/Views/Home/RSVPForm.cshtml]
+[d:/DeployWebApps/NewRsvpApp/Views/Home/RSVPForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSU1ZQRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-anrirt58xw
 
-[d:/MVCPROJECTS/RealRSVPApplication/Views/Home/WelcomePage.cshtml]
+[d:/DeployWebApps/NewRsvpApp/Views/Home/WelcomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXZWxjb21lUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-xh8jiq60qk
 
-[d:/MVCPROJECTS/RealRSVPApplication/Views/Shared/_Layout.cshtml]
+[d:/DeployWebApps/NewRsvpApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-05x8t7vla1
